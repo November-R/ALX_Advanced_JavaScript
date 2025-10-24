@@ -1,13 +1,15 @@
 let person = {
-    "userName" : "Julia",
+    "myName" : "Julia",
     "profession" : "A Flying Doctor",
-    "hobby" : "Rapper",
-    age : 65
+    "hobby" : "Rapping",
+    age : 65,
+    "Parent" : "Mary Johnson"
 };
 
-const {name, profession, hobby, age} = person;
+const {myName, profession, hobby, age, Parent} = person;
 
-//console.log(userName);
+console.log(myName);
 console.log(profession);
 console.log(hobby);
 console.log(age);
+console.log(Parent);
